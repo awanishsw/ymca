@@ -1,0 +1,87 @@
+@media (max-width: 1024px) {
+    .navbar {
+        padding: 2.0rem 0;
+    }
+    .introText .rounded {
+        margin-bottom: 2.0rem;
+        height: 20.0rem;
+        width: 20.0rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .navbar-nav li.nav-item a {
+        padding: 0.8rem 1.4rem !important;
+        border-radius: 2.1rem;
+        font-size: 1.3rem;
+    }
+    .landingPage .margin-top60,
+    .loginPage .margin-top60 {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    html {
+        font-size: 50%;
+    }
+    header.headersection {
+        position: inherit;
+        height: inherit;
+    }
+    .navbar {
+        padding: 1.5rem 0;
+    }
+    .navbar .row {
+        margin: 0;
+        width: 100%;
+    }
+    .navbar-toggler {
+        border-color: #fff!important;
+        margin-bottom: 0.5rem;
+    }
+    .navbar-dark .navbar-toggler:focus {
+        outline: none;
+    }
+    .navbar-dark .navbar-toggler-icon {
+        position: relative;
+        background-image: inherit;
+        border-top: 1px solid #fff;
+        top: 7px;
+    }
+    .navbar-dark .navbar-toggler-icon:after {
+        position: absolute;
+        top: 3px;
+        content: '';
+        border-top: 1px solid #fff;
+        left: 0;
+        right: 0;
+    }
+    .navbar-dark .navbar-toggler-icon:before {
+        position: absolute;
+        top: -5px;
+        content: '';
+        border-top: 1px solid #fff;
+        left: 0;
+        right: 0;
+    }
+    .navbar-nav li {
+        margin-right: 0;
+        margin-bottom: 0.5rem
+    }
+    .navbar-nav li a {
+        width: 100%;
+        text-align: center;
+    }
+    .btn {
+        font-size: 1.6rem;
+        line-height: 3.5rem;
+        padding: 0 1.5rem;
+        font-size: 1.2rem;
+    }
+    .landingPage .margin-top60 {
+        margin-top: 0;
+    }
+    .head-ymca {
+        margin-top: 2.5rem;
+    }
+}

@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <title>YMCA of the USA</title>
+
+
+    <link rel="apple-touch-icon" sizes="57x57" href="img/fev/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/fev/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/fev/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/fev/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/fev/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/fev/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/fev/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/fev/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/fev/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="img/fev/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/fev/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/fev/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/fev/favicon-16x16.png">
+    <link rel="manifest" href="img/fev/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="img/fev/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+    <header class="headersection clearfix">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <a href="#" class="text-left"><img src="img/logo.png" alt="YMCA"> </a>
+                </div>
+                <div class="col-sm-6">
+                    <div class="head-ymca text-right">
+                        <img src="img/ymca.jpg" alt="YMCA of the suncoast">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="main-height">
+        <div class="loginPage padding-top30 padding-bottom30 clearfix">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8">
+                        <div class="margin-top60">
+                            <h3 class="heading03">LOGIN</h3>
+                            <p class="margin-btn40">Sign in to your account</p>
+                            <form>
+                                <div class="contact-form">
+                                    <div class="wrap-input2 validate-input">
+                                        <input class="input2" type="text" name="name">
+                                        <span class="focus-input2" data-placeholder="Username"></span>
+                                    </div>
+
+                                    <div class="wrap-input2 validate-input">
+                                        <input class="input2" type="password" name="password">
+                                        <span class="focus-input2" data-placeholder="Password"></span>
+                                    </div>
+                                </div>
+                                <div class="loginBtn margin-btn15 clearfix">
+                                    <a href="intro.html" class="btn btn-info">Login</a>
+                                    <p>Not a member ? <a href="signup.html">Create Account</a></p>
+                                </div>
+                                <a href="#" class="forgotText">Forgot your password?</a>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <figure>
+                            <img src="img/ymca-landing.jpg" alt="&nbsp;">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footersection">
+        <p>Copyright © 2018 YMCA of the USA. All rights reserved.</p>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+    <script>
+        (function($) {
+            $('.input2').each(function() {
+                $(this).on('blur', function() {
+                    $(this).removeClass('has-val');
+                })
+				$(this).on('focus', function() {
+                    $(this).addClass('has-val');
+                })
+            })
+        })(jQuery);
+    </script>
+</body>
+
+</html>

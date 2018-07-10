@@ -1,0 +1,563 @@
+@font-face {
+    font-family: 'Cachet Bold';
+    src: url('../fonts/cachet/Cachet Bold.eot');
+    src: url('../fonts/cachet/Cachet Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/cachet/Cachet Bold.woff2') format('woff2'), url('../fonts/cachet/Cachet Bold.woff') format('woff'), url('../fonts/cachet/Cachet Bold.svg#Cachet Bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-2219;
+}
+
+@font-face {
+    font-family: 'Cachet Book';
+    src: url('../fonts/cachet/Cachet Book.eot');
+    src: url('../fonts/cachet/Cachet Book.eot?#iefix') format('embedded-opentype'), url('../fonts/cachet/Cachet Book.woff2') format('woff2'), url('../fonts/cachet/Cachet Book.woff') format('woff'), url('../fonts/cachet/Cachet Book.svg#Cachet Book') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-2219;
+}
+
+@font-face {
+    font-family: 'Cachet Medium';
+    src: url('../fonts/cachet/Cachet Medium.eot');
+    src: url('../fonts/cachet/Cachet Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/cachet/Cachet Medium.woff2') format('woff2'), url('../fonts/cachet/Cachet Medium.woff') format('woff'), url('../fonts/cachet/Cachet Medium.svg#Cachet Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-2219;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #636466;
+    line-height: 1.38;
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: normal;
+    color: #01a490;
+    font-family: 'Cachet Medium';
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 1.3rem;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+}
+
+.relative {
+    position: relative;
+}
+
+.block {
+    display: block;
+}
+
+a {
+    color: #555555;
+    text-decoration: underline;
+}
+
+a:focus {
+    outline: none;
+    text-decoration: none;
+}
+
+a:focus,
+a:hover {
+    color: #26a8f2;
+    text-decoration: none;
+}
+
+.noMargin {
+    margin: 0;
+}
+
+.noPadding {
+    padding: 0;
+}
+
+.noRightMrgn {
+    margin-right: 0;
+}
+
+.noLeftMrgn {
+    margin-left: 0;
+}
+
+.noBottomMrgn {
+    margin-bottom: 0;
+}
+
+.noTopMrgn {
+    margin-top: 0;
+}
+
+.noRightPdni {
+    padding-right: 0;
+}
+
+.noleftPdni {
+    padding-left: 0;
+}
+
+.noTopPdin {
+    padding-top: 0;
+}
+
+.noBorder {
+    border: none;
+}
+
+.noRightBorder {
+    border-right: none;
+}
+
+.noBottomBorder {
+    border-bottom: none;
+}
+
+.noBg {
+    background: none;
+}
+
+.padding-top30 {
+    padding-top: 3.0rem;
+}
+
+.padding-bottom30 {
+    padding-bottom: 3.0rem;
+}
+
+.padding-bottom40 {
+    padding-bottom: 4.0rem;
+}
+
+.padding-left25 {
+    padding-left: 2.5rem;
+}
+
+.margin-btn15 {
+    margin-bottom: 1.5rem;
+}
+
+.margin-btn25 {
+    margin-bottom: 2.5rem;
+}
+
+.margin-btn30 {
+    margin-bottom: 3.0rem;
+}
+
+.margin-btn40 {
+    margin-bottom: 4.0rem;
+}
+
+.margin-btn50 {
+    margin-bottom: 5.0rem;
+}
+
+.margin-btn60 {
+    margin-bottom: 6.0rem;
+}
+
+.margin-btn70 {
+    margin-bottom: 7.0rem;
+}
+
+.margin-top15 {
+    margin-top: 1.5rem;
+}
+
+.margin-top20 {
+    margin-top: 2.0rem;
+}
+
+.margin-top40 {
+    margin-top: 4.0rem;
+}
+
+.margin-top50 {
+    margin-top: 5.0rem;
+}
+
+.margin-top60 {
+    margin-top: 6.0rem;
+}
+
+.margin-top80 {
+    margin-top: 8.0rem;
+}
+
+.margin-top70 {
+    margin-top: 7.0rem;
+}
+
+.whit-color {
+    color: #fff !important;
+}
+
+figure {
+    margin-bottom: 0;
+}
+
+.textTransform {
+    text-transform: inherit!important;
+}
+
+.btn {
+    line-height: 4.2rem;
+    padding: 0 2.8rem;
+    font-size: 1.6rem;
+    font-family: 'Cachet Medium';
+    font-weight: 500;
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 10.0rem;
+    text-decoration: none;
+    box-shadow: inherit;
+}
+
+.btn:focus,
+.btn:active {
+    box-shadow: inherit;
+    color: #fff;
+}
+
+.btn:hover {
+    -webkit-transition: background-color 1s ease-out;
+    -moz-transition: background-color 1s ease-out;
+    -o-transition: background-color 1s ease-out;
+    transition: background-color 1s ease-out;
+}
+
+.btn-info {
+    background-color: #0089d0;
+}
+
+.btn-info:hover,
+.btn-info:not(:disabled):not(.disabled).active,
+.btn-info:not(:disabled):not(.disabled):active,
+.show>.btn-info.dropdown-toggle {
+    background-color: #3baae3;
+    box-shadow: inherit !important;
+}
+
+.btn-warning {
+    background-color: #f68c1e;
+    border: none;
+}
+
+.btn-warning:hover {
+    background-color: #f5a654;
+    border: none;
+}
+
+.bg-skyblue {
+    background-color: #0089d0;
+}
+
+.btn-info.disabled {
+    background-color: #717274;
+}
+
+.navbar {
+    padding: 3.0rem 0;
+}
+
+.navbar-nav li a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.navbar-nav li {
+    margin-right: 1.5rem;
+}
+
+.navbar-nav li.nav-item a {
+    padding: 1.0rem 2.4rem !important;
+    border-radius: 2.1rem;
+    font-size: 1.6rem;
+    background-color: #80c4e8;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    font-family: 'Cachet Medium';
+    color: #636466;
+}
+
+.navbar-dark .navbar-nav li.active .nav-link,
+.navbar-dark .navbar-nav li:hover .nav-link,
+.navbar-dark .navbar-nav li:focus .nav-link,
+.navbar-dark .navbar-nav li:active .nav-link {
+    color: #0089d0;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.26);
+}
+
+
+/*Heading Style*/
+
+.heading01 {
+    font-size: 5.5rem;
+}
+
+.heading02 {
+    font-size: 4.0rem;
+}
+
+.heading03 {
+    font-size: 3.0rem;
+}
+
+.heading04 {
+    font-size: 2.0rem;
+}
+
+.border-line {
+    border: 1px solid #e5e5e5;
+    height: 1px;
+    width: 100%;
+    margin-bottom: 3.0rem;
+    display: block;
+    clear: both;
+}
+
+
+/*Heading Style*/
+
+header.headersection {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 1.5rem 0;
+    width: 100%;
+    height: 10.0rem;
+    overflow: hidden;
+    z-index: 2000;
+    background-color: #fff;
+    -webkit-box-shadow: 1px 1.732px 10px 0px rgba(0, 0, 0, 0.16);
+    -khtml-box-shadow: 1px 1.732px 10px 0px rgba(0, 0, 0, 0.16);
+    -moz-box-shadow: 1px 1.732px 10px 0px rgba(0, 0, 0, 0.16);
+    -ms-box-shadow: 1px 1.732px 10px 0px rgba(0, 0, 0, 0.16);
+    box-shadow: 1px 1.732px 10px 0px rgba(0, 0, 0, 0.16);
+}
+
+.landingPage {}
+
+.head-ymca {
+    margin-top: 1.0rem;
+}
+
+footer {
+    padding: 0.5rem 0;
+    border-top: 1px solid #e0e0e0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.landingPage figure img {
+    width: 100%;
+}
+
+.landingPage p {
+    line-height: 2.2rem;
+    margin-bottom: 3.0rem
+}
+
+.landingPage a.btn {
+    margin-right: 1.0rem;
+}
+
+.loginBtn a.btn {
+    float: left;
+    margin-right: 2.0rem;
+}
+
+.loginBtn p {
+    float: left;
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 4.2rem;
+}
+
+.loginBtn p a {
+    color: #0089d0;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.forgotText {
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.forgotText:hover {
+    color: #0089d0;
+}
+
+.introText p {
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+    margin-bottom: 2.5rem;
+}
+
+.introText figure,
+.introText iframe {
+    margin-bottom: 2.5rem;
+}
+
+.introText .btn {
+    font-size: 1.4rem;
+    padding: 0 1.8rem;
+    line-height: 3.0rem;
+}
+
+.introText .rounded {
+    border-radius: 50% !important;
+    overflow: hidden;
+    margin-bottom: 2.0rem;
+    height: 26.0rem;
+    width: 26.0rem;
+}
+
+.step-pagination {
+    margin-bottom: 2.5rem;
+}
+
+.pagination .page-item {
+    font-size: 1.6rem;
+    margin-right: 0.8rem;
+    color: #424242;
+    line-height: 3.0rem;
+}
+
+.pagination .page-item .page-link {
+    border: 1px solid #424242;
+    border-radius: 50%;
+    color: #424242;
+    font-size: 1.2rem;
+    width: 3.0rem;
+    height: 3.0rem;
+    padding: 0;
+    line-height: 3.0rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.pagination .page-item .page-link:hover,
+.pagination .page-item .page-link.active {
+    color: #2b78c4;
+    background-color: transparent;
+}
+
+.section-dots {
+    list-style: none;
+    margin-left: 1.5rem;
+    margin-top: 0;
+    padding: 0;
+}
+
+.section-dots li {
+    position: relative;
+    padding-left: 2.0rem;
+    margin-bottom: 1.0rem;
+}
+
+.section-dots li:after {
+    content: "";
+    position: absolute;
+    top: 0.6rem;
+    left: 0;
+    height: 0.9rem;
+    width: 0.9rem;
+    background-color: #0089d0;
+    border-radius: 50%;
+}
+
+.oneTime-open .modal-dialog {
+    width: 38.4rem;
+    top: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.oneTime-open .modal-dialog .modal-content {
+    border-radius: 0;
+}
+
+.oneTime-open .modal-dialog .modal-content .modal-header {
+    padding: 1.2rem;
+    background-color: #f3f4f6;
+    border-bottom: 0;
+}
+
+.oneTime-open .modal-dialog .modal-content .modal-header h4 {
+    margin-bottom: 0;
+}
+
+.oneTime-open .modal-dialog .modal-content .modal-body {
+    padding: 1.5rem;
+}
+
+.oneTime-open .modal-dialog .modal-content .modal-body p {
+    font-size: 1.4rem;
+}
+
+.oneTime-open .modal-dialog .modal-content .modal-footer {
+    border-top: 0;
+}
+
+.oneTime-open .modal-dialog .modal-content .modal-footer .btn {
+    line-height: 3.0rem;
+    font-size: 1.4rem;
+}
+
+.oneTime-open .modal-dialog .modal-content .modal-footer .btn-default {
+    background-color: #717274;
+}
+
+.labelText {
+    margin-top: 2.5rem;
+}
+
+.labelText p {
+    font-size: 1.6rem !important;
+    font-family: 'Cachet Book';
+    text-align: left;
+    margin-bottom: 2.5rem;
+}
+
+.labelText p span {
+    width: 8.5rem;
+    color: #2b78c4;
+    display: inline-block;
+}
